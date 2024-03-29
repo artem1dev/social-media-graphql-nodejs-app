@@ -1,4 +1,4 @@
-# E-Commerce-GraphQL-NodeJs-app
+# Social-Media-Graphql-Nodejs-App
 This is an GraphQl app for social media network like a blog. It has server and client parts. 
 
 ---
@@ -30,7 +30,9 @@ The repository includes an `example.env` file. You should create the following e
 You can use the `example.env` file as a template.
 
 PORT - Integer: Port for running server
+
 DATABASE_URL - String: URL for postgresql for prisma
+
 JSON_SIGNATURE - String: JWT secret key
 
 ## Running the Application

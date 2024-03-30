@@ -18,7 +18,7 @@ To get started with the project server, you need to install all dependencies:
   ```
 
   ```bash
-  npm install
+  npm ci
   ```
 
 ## Environment Configuration
@@ -59,7 +59,7 @@ To get started with the project server, you need to install all dependencies:
   ```
 
   ```bash
-  npm install
+  npm ci
   ```
 
 ## Running the Application

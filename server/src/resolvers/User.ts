@@ -19,18 +19,17 @@ export const User = {
                     },
                 ],
             });
-        } else {
-            return prisma.post.findMany({
-                where: {
-                    authorId: parent.id,
-                    published: true,
-                },
-                orderBy: [
-                    {
-                        createdAt: "desc",
-                    },
-                ],
-            });
         }
+        return prisma.post.findMany({
+            where: {
+                authorId: parent.id,
+                published: true,
+            },
+            orderBy: [
+                {
+                    createdAt: "desc",
+                },
+            ],
+        });
     },
 };
